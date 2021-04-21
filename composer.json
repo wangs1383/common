@@ -1,0 +1,25 @@
+{
+    "name": "wangs1383/common",
+    "description": "常用的一些类和方法，包括微信、阿里云等接口",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "7.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangs1383",
+            "email": "wangs1383@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wangs1383\\": "src"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
